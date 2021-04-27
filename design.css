@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(angel-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg h1 {
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bg h2 {
+    text-align: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.contact {
+    padding-top: 70px;
+}
+
+.sale h1 {
+    font-size: 40px;
+}
+
+.head {
+    padding-top: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+
+/*---------------FIRSTLINE--------------*/
+.firstline {
+    display: flex;
+    align-items: center;
+}
+
+.firstline::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.line-1 {
+    padding: 2.5%;
+    width: 20%;
+    float: left;
+}
+
+.line-1 h1, h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.line-1 button {
+    height: 30px;
+    width: 105px;
+    border: 1px solid ;
+    border-radius: hide;
+    font-size: 20px;
+}
+
+
+/*---------------SECONDLINE--------------*/
+.secondline {
+    display: block;
+    align-items: center;
+}
+
+.secondline::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.line-2 {
+    padding: 2.5%;
+    width: 20%;
+    float: left;
+}
+
+.line-2 h1, h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.line-2 button {
+    height: 30px;
+    width: 105px;
+    border: 1px solid ;
+    border-radius: hide;
+    font-size: 20px;
+}
+
+
+/*---------------THIRDLINE--------------*/
+.thirdline {
+    display: flex;
+    align-items: center;
+}
+
+.thirdline::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.thirdline {
+    content: '';
+    display: table;
+}
+
+.line-3 {
+    padding: 2.5%;
+    width: 20%;
+    float: left;
+}
+
+.line-3 h1, h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.line-3 button {
+    height: 30px;
+    width: 105px;
+    border: 1px solid ;
+    border-radius: hide;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .background .firstline .secondline .thirdline {
+        display: block;
+    }
+}
